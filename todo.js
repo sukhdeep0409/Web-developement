@@ -49,6 +49,12 @@ function addItem(){
             li.className = 'visual';
         }, 2);
         
+        /*
+        setTimeout(() => {
+            li.className = 'visual';
+        }, 2);
+        */
+        
         input.value = '';
     }
 }
